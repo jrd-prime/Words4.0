@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="msgOnLoginScreen">Чтобы не потерять ваши достижения,\nпожалуйста, авторизуйтесь</string>
+    <string name="msgOnExit">Нажмите еще раз для выхода</string>
+    <string name="msgHelloOnFirstRun">Добро пожаловать!</string>
+    <string name="msgStartLearn">Начать изучение</string>
+    <string name="msgTextOnFirstRun">Хотя фраза и бессмысленна, она имеет давнюю историю. Фраза использовалась
+        печатниками многие столетия для демонстрации наиболее важных особенностей своих шрифтов. Она использовалась
+        потому, что символы составляют сложные по межсимвольным промежуткам и по комбинациям символов пары.
+    </string>
+</resources>
