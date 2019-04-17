@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/main_navigation"
+            app:startDestination="@id/FGHomeFirstRun">
+
+    <fragment android:id="@+id/FGHomeFirstRun" android:name="jrd.words4.home.FGHomeFirstRun"
+              android:label="fg_home_first_run" tools:layout="@layout/fg_home_first_run">
+        <action android:id="@+id/action_FGHomeFirstRun_to_FGHome" app:destination="@id/FGHome"/>
+    </fragment>
+    <fragment android:id="@+id/FGHome" android:name="jrd.words4.home.FGHome" android:label="fg_home"
+              tools:layout="@layout/fg_home"/>
+    <fragment android:id="@+id/FGProgress" android:name="jrd.words4.progress.FGProgress" android:label="fg_progress"
+              tools:layout="@layout/fg_progress">
+        <action android:id="@+id/action_FGProgress_to_FGHome" app:destination="@id/FGHome"/>
+    </fragment>
+    <fragment android:id="@+id/FGStatistic" android:name="jrd.words4.statistics.FGStatistic"
+              android:label="fg_statistic" tools:layout="@layout/fg_statistic">
+        <action android:id="@+id/action_FGStatistic_to_FGHome" app:destination="@id/FGHome"/>
+    </fragment>
+</navigation>

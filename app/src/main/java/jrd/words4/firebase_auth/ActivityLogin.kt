@@ -69,7 +69,7 @@ class ActivityLogin : AppCompatActivity() {
             } else {
                 u?.l("Login - Result ERROR")
                 val snackbar = Snackbar
-                    .make(signInGoogle!!, "Проверьте доступ в интернет", Snackbar.LENGTH_LONG)
+                    .make(signInGoogle, "Проверьте доступ в интернет", Snackbar.LENGTH_LONG)
                     .setDuration(3000)
                 SnackHelper().configSnackbar(this, snackbar)
                 snackbar.show()
@@ -91,8 +91,8 @@ class ActivityLogin : AppCompatActivity() {
                 finishActivity()
             }
         val snackbar = Snackbar
-            .make(signInGoogle!!, "Выйти из приложения?", Snackbar.LENGTH_LONG)
-            .setDuration(3000)
+            .make(signInGoogle, "Выйти из приложения?", Snackbar.LENGTH_LONG)
+            .setDuration(2700)
             .setAction("Да", snackbarOnClickListener)
         SnackHelper().configSnackbar(this, snackbar)
         snackbar.show()

@@ -18,4 +18,8 @@
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:color">@color/colorLighter</item>
     </style>
+
+    <style name="myBtn" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
 </resources>
