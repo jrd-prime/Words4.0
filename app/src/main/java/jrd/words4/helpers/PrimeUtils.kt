@@ -4,7 +4,6 @@ import android.app.Activity
 import android.content.Context
 import android.preference.PreferenceManager
 import android.util.Log
-import android.widget.Toast
 
 class PrimeUtils(activityMain: Activity) {
 
@@ -39,4 +38,6 @@ class PrimeUtils(activityMain: Activity) {
         val m = activity.localClassName + " /// " + msg
         Log.i("mInfo", m)
     }
+
+
 }

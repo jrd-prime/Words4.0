@@ -2,6 +2,6 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item android:drawable="@drawable/common_full_open_on_phone"/>
-    <item android:drawable="@drawable/circle"/>
+    <item android:drawable="@drawable/circle1"/>
 
 </layer-list>

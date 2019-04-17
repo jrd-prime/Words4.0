@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ttl_progress">Достижения</string>
+    <string name="ttl_home">Задания</string>
+    <string name="ttl_statistics">Статистика</string>
+</resources>
